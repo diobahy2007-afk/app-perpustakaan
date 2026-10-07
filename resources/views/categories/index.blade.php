@@ -41,5 +41,5 @@
         </tbody>
     </table>
 
-    <p><em>Catatan: data di atas masih data dummy. Link Edit dan tombol Hapus masih menampilkan teks polos karena CRUD kategori lengkap baru dikerjakan di Pertemuan 5.</em></p>
+    {{ $categories->links() }}
 @endsection

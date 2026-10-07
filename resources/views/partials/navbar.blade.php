@@ -1,5 +1,5 @@
 {{-- File: resources/views/partials/navbar.blade.php --}}
-<nav>
+<nav class="navbar">
     <div class="brand">📚 Perpustakaan Digital Kampus</div>
     <ul>
         <li><a href="{{ route('books.index') }}" class="{{ request()->routeIs('books.*') ? 'active' : '' }}">Buku</a></li>
