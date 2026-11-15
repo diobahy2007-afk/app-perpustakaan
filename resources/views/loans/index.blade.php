@@ -53,7 +53,7 @@
                             |
                             <form class="inline" action="{{ route('loans.kembalikan', $loan['id']) }}" method="POST">
                                 @csrf
-                                @method('PATCH')
+                                @method('PUT')
                                 <button type="submit">Kembalikan</button>
                             </form>
                         @endif
