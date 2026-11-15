@@ -11,6 +11,9 @@
         .navbar .brand { color: #fff; font-weight: bold; font-size: 18px; }
         .navbar ul { list-style: none; display: flex; gap: 20px; margin: 0; padding: 0; }
         .navbar ul li a { color: #cbd5e1; text-decoration: none; padding: 6px 4px; }
+        .navbar-user { display: flex; align-items: center; gap: 12px; color: #cbd5e1; font-size: 14px; }
+        .btn-logout { background: none; border: 1px solid #cbd5e1; color: #cbd5e1; padding: 4px 10px; border-radius: 4px; cursor: pointer; font-size: 14px; }
+        .btn-logout:hover { background: #1e40af; color: #fff; }
         .alert-error { background: #fee2e2; color: #991b1b; padding: 10px 14px; border-radius: 4px; margin-bottom: 16px; }
         .status-badge { display: inline-block; padding: 3px 12px; border-radius: 999px; font-size: 0.85rem; font-weight: 600; }
         .status-dikembalikan { background: #d1fae5; color: #065f46; }
